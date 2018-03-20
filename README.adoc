@@ -1,0 +1,45 @@
+= BC Drill Manager
+
+A Ruby library with a companion script to ease an organization's
+management of business continuity-related (BC) drill reports.
+
+== Motivation
+
+By utilizing models defined in
+https://github.com/riboseinc/bc-drill-model/[BC Drill Model],
+this project attempts to bring formalization to BC drill report documents.
+
+This enables integration with other automation tools such as continuous
+integration platforms.
+
+== Installation
+
+=== as a library (TBI)
+
+. Put this in your `Gemfile`:
++
+[source,ruby]
+----
+gem "bc-drill-manager", github: "riboseinc/bc-drill-manager"
+----
+
+. Run `bundle` in your console.
+. Now you can use this library within your Ruby app! (TODO: elaborate)
+
+=== as a script (TBI)
+
+. Clone this repo:
++
+[source,bash]
+----
+git clone https://github.com/riboseinc/bc-drill-manager
+cd bc-drill-manager
+----
+
+. Run `bundle` in your console.
+. The script is now available in your console! (TODO: elaborate)
++
+[source,bash]
+----
+driller --version
+----
